@@ -6,7 +6,7 @@ def main() -> None:
     Main method which generates a user set amount of random passwords
     :return: None
     """
-    chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ~`! @#$%^&*()_-+={[}]|\:;<,>.?/'
+    chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ~`!@#$%^&*()_-+={[}]|\:;<,>.?/1234567890'
     #User input for the number of passwords desired
     numPasswords = input("Please enter the number of passwords you would like: ")
     #loop to validate user input, making sure that it is a positive integer between 0-128. 128 was chosen arbitrarily
